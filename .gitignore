@@ -1,0 +1,6 @@
+.idea
+default.properties
+local.properties
+gen/
+bin/
+libs/
