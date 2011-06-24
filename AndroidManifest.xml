@@ -8,6 +8,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".DisplayTagActivity">
+            <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
     <uses-sdk android:minSdkVersion="10"/>
     <uses-permission android:name="android.permission.NFC" />
